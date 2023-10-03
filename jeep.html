@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="jeep.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -41,32 +42,43 @@
            <h3>BOOK YOUR TEST DRIVE</h3>
            <div id="formfill">
             <div id="one">
-                <label for="">Salutation</label>
-                <input type="text">
-                <label for="">User name</label>
-                <input type="text">
+                <div class="firstform">
+                    <Label>Salutation</Label>
+                    
+                    <Label>First Name</Label>
+                    <select name="" id="">
+                        <option value="">Mr</option>
+                        <option value="">Mrs</option>
+                        <option value="">dr</option>
+                        <option value="">prof</option>
+                    </select>
+                    <input type="text">
+                </div>
+                <div class="secondform">
+                    <Label>Last Name</Label>
+                    <Label>Mobile Number</Label>
+                    <input type="text">
+                    <input type="Number">
+                </div>
+                <div class="thirdform">
+                    <Label>Email</Label>
+                    <input class="in" type="Email">
+                    <Label>State</Label>
+                    <select name="" id="">
+                        <option value="">Kerala</option>
+                        <option value="">Tamilnadu</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Delhi</option>
+                    </select>
+                </div>
             </div>
-            <div id="two">
-                <label for="">Last Name</label>
-                <input type="text">
-                <label for="">Number</label>
-                <input type="number">
-            </div>
-            <div id="three">
-                <label for="">Email</label><br>
-                <input type="email"><br><br>
-                <label for="">State</label><br>
-                <input type="text">
-            </div>
-        
-
-
-
            </div>
-            <div id="formfillfooter">
-                
-            </div>
-              
+            <div id="formfillfooter"> 
+                  <p>I Would Like To Exchange My Car<input type="checkbox"></p><br>
+                 <p>I agree with the privacypolicy<input type="checkbox"><br></p>
+                  <a href="submit">Submit</a>
+
+            </div>  
            </div>
         </div>
         <div class="lastfirst">
